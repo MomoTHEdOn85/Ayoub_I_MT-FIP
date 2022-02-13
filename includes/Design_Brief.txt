@@ -1,0 +1,34 @@
+Each team is responsible for designing, coding and semantically tagging a static/fixed
+width, 5 page, HTML5 website (using Flexbox). CSS3 must also be properly utilized
+throughout the site. Each team is also responsible for researching and implementing a
+CSS3 Animation.
+6
+MID TERM & FINAL INTEGRATED PROJECT - Winter 2022
+Students are strongly encouraged to submit a fully completed design for their website,
+however placeholder content such as stock photos and roughed out design files are
+permitted.
+The five (5) page website is to be based on the students own original layout  (Not the
+templates provided last semester or any other template). Students are required to create
+the proper markup for the site and must make use of semantic tags. The site must also
+include a contact or purchase form.
+Research:
+It is the responsibility of the student to research and use methods taught in class to
+complete the assignment. Your professor will not provide you with direct code, but will
+point you in the right direction with examples.
+Please note that Transitions and Transforms are not Animations. Your code must make use
+of the CSS3 Animation Property:
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations
+Direct use of a tutorial is not permitted - line for line code will result in a 0.  It is acceptable
+to use a tutorial and modify what you have learned.  A link to the tutorial must be provided.
+One page scroll sites are NOT permitted.
+Requirements:
+●5 Pages (Home, About, Products/Promotions, Advertisements, Contact/Purchase)
+●Semantic tagging and Proper Document Outline
+●Static/Fixed width site using flexbox
+●Valid HTML5
+●Valid CSS
+●Browser Compatibility (FF, Chrome)
+●Folder structure
+●Layered working files
+●Link to CSS file, Reset, JS file
+●CSS Animation
