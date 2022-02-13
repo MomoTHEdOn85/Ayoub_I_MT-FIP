@@ -1,0 +1,328 @@
+/*
+Style Name: Dr. Bronner's Beer Website 
+Author: Immama Ayoub
+Version: 1.0
+*/
+
+@charset "UTF-8";
+/* CSS Document */
+/*------------------
+ 1- Global 
+ 2- Ids
+ -------------------*/
+ /*___________________
+    Global
+  ___________________*/
+
+.hidden{
+	display: none;
+}
+
+div,p,body,header,footer,section,nav {
+	margin: 0;
+	padding: 0;
+}
+
+#Site {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 3px;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-weight: normal;
+}
+
+.mart {
+	margin: 90px;
+}
+.cent {
+	align-content: center;
+}
+
+ 
+
+/*___________________
+    Class & Ids
+  ___________________*/
+/*=============*/
+/*---Header----*/
+/*=============*/
+.main {
+	max-width: 1800px;
+	margin: 0 auto;
+	padding: 1px;
+}
+.head{
+	background-color:#181D57;
+	height: 142px;
+}
+
+.logo {
+	 
+	float: left; 
+}
+.logo p {
+	background: white;
+	margin-top: 16px;
+	margin-left: 150px;
+	padding: 40px 140px;
+}
+.nav {
+	background-color:#181D57;
+	height: 142px;
+	display: flex;
+	float: right;
+	flex-direction: column;
+	justify-content: flex-end;
+	position: relative; 
+	margin-right: 150px;
+	margin-bottom: 12px;
+}
+ 
+.nav li ,.navf li {
+	display: inline-flex;
+	align-content: space-between;
+}
+
+.nav ul li a {
+	margin-left: 150px;
+	font-size: 30px;
+	color: #E8DED1;
+	text-decoration: none; 
+}
+
+.nav li a:hover, .navf li a:hover {
+	 background:#E8DED1;
+	 color:#181D57;
+	 -webkit-transition: background-color 500ms linear;
+	 -ms-transition: background-color 500ms linear;
+	 transition: background-color 500ms linear;
+
+}
+.nav li a.active, .navf li a.active {
+	 background:#E8DED1;
+	 color:#181D57;
+	 padding: 12px;
+}
+
+/*-Hero-*/ 
+.Hero_Box img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.Hero {
+	position: relative;
+	text-align: center;
+}
+.Htext {
+	/*-placing text over image-*/
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: inline;
+	text-align: center;
+	font-size: 35px;
+	padding: 55px;
+	color:#181D57;
+	background-color: #E8DED1; 
+}
+
+/*=============*/
+/*---Body----*/
+/*=============*/
+#Beers {
+	display: flex;
+	flex-direction: column;
+
+}
+#Beer-content p {
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px;
+	background-color: #181D57;
+
+}
+#BeersImg img{
+	float: right;
+}
+
+#AdPanel a {
+	line-height: 150px;
+	background-color: #181D57;
+	color:#E8DED1;
+	text-align: center;
+
+}
+#EmailSign, #EmailSign p {
+	line-height: 150px;
+	background-color: #181D57;
+	color:#E8DED1;
+	text-align: center;
+}
+
+#OurStory p {
+	line-height: 150px;
+	background-color: #181D57;
+	color:#E8DED1;
+	text-align: center;
+}
+#OurStory a {
+	line-height: 80px;
+	background-color: #181D57;
+	color:#E8DED1;
+	text-align: center;
+
+}
+
+/*-----Ad Page-------*/
+.Banner p {
+	animation:  pulse 5s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		background-color: #181D57;
+	}
+	60% {
+		background-color:#E8DED1;
+	}
+	100% {
+		background-color: orange;
+	}
+}
+.Banner p {
+	font-size: 45px;
+	font-weight: bold;
+	color:#E8DED1;
+	text-align: center;
+	padding: 20px;
+	background-color:#181D57 ;
+}
+.NoAd p {
+
+	font-size: 20px;
+	padding: 90px;
+	background: grey;
+	text-align: center;
+}
+.AdStory p {
+	padding: 30px;
+	font-size:30px;
+	color:#181D57;
+	text-align: center;
+
+}
+
+/*-----Beers Page-------*/
+.loc {
+	font-size: 30px;
+	text-align: center;
+	color:#181D57;
+}
+
+.product {
+	position: relative;	 	 
+}
+.beer1 {
+	display: inline-grid;
+}
+.beer2 {
+	display: inline-grid;
+}
+
+/*-----About Page-------*/
+.storyhe {
+	font-size: 35px;
+	text-align: center;
+	padding: 50px;
+}
+.Meaning_us p, .Adprompt p {
+	font-size: 35px;
+	text-align:center;
+	padding: 45px;
+}
+
+/*-----Contact Page-------*/
+.cont-form {
+	display: grid;
+	justify-content: center;
+	padding: 80px;
+}
+ 
+.cont-form p {
+	text-align: center;
+	font-size: 30px;
+	padding: 15px;
+}
+input[type="text"] {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 350;
+
+    }
+input {
+	display: flex;
+	padding: 20px 20px 50px 20px;
+	border: 2px solid #000;
+	background-color: #FDFEFF;
+	width: 948px;
+	justify-content: center;
+  }
+
+/*=============*/
+/*---Footer----*/
+/*=============*/
+#Footer {
+	background-color:#181D57;
+	height: 150px;
+}
+
+.navf {
+	background-color:#181D57;
+	height: 120px;
+	display: flex;
+	float: right;
+	flex-direction: column;
+	justify-content: flex-end;
+	position: relative; 
+	margin-right: 120px;
+	margin-bottom: 100px;
+}
+
+.navf ul li a {
+	margin-left: 150px;
+	font-size: 70px;
+	color: #E8DED1;
+	text-decoration: none; 
+	font-size: 20px;
+}
+
+#Footer logo {
+	display: list-item;
+} 
+
+#copyRight {
+	position: absolute;
+	background: #FDFEFF;
+	margin-top: 150px;  
+	padding: 2px 700px;
+	text-align: center; 
+}
+
+#copyRight p {
+	position: relative;
+	background: #FDFEFF; 
+	
+}
+
+
+
+
+
+
